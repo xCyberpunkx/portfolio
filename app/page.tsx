@@ -1,6 +1,5 @@
 import Hero from "./components/Hero";
 import { Navbar } from "@/app/components/Navbar";
-import { Timeline } from "./components/ui/Timeline"; // You may not need this import anymore
 import { TimelineDemo } from "./components/TimelineDemo"; // Import the TimelineDemo component
 
 export default function Home() {
@@ -9,10 +8,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Navbar />   
         <Hero />
-        {/* Add the TimelineDemo component here */}
         <TimelineDemo  />
       </div>
+      <div></div>
     </main>
   );
 }
-
